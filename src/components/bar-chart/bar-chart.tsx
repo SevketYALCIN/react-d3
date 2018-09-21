@@ -14,7 +14,7 @@ class BarChart extends React.Component<BarChartProps> {
       .select(this.node)
       .append('svg')
       .attr('width', this.props.width)
-      .attr('height', this.props.height);
+      .attr('height', this.props.height)
 
     svg
       .selectAll('rect')
